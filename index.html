@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Links | Jean Carlos</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome para Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gradient-to-br from-slate-900 via-zinc-900 to-black text-slate-100 min-h-screen flex flex-col justify-between font-sans selection:bg-emerald-500 selection:text-black">
+
+    <!-- Conteúdo Principal -->
+    <main class="max-w-md w-full mx-auto px-4 py-12 flex flex-col items-center">
+        
+        <!-- Foto de Perfil / Avatar -->
+        <div class="relative mb-4 group">
+            <div class="absolute -inset-0.5 bg-gradient-to-r from-emerald-500 to-cyan-500 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-300"></div>
+            <img src="https://avatars.githubusercontent.com/u/placeholder?v=4" alt="Foto de Perfil" class="relative w-28 h-28 object-cover rounded-full border-2 border-slate-800 shadow-xl">
+        </div>
+
+        <!-- Nome e Bio -->
+        <h1 class="text-2xl font-bold tracking-tight text-white mb-1">Jean Carlos</h1>
+        <p class="text-slate-400 text-sm text-center mb-8 px-4">Estudante de Análise e Desenvolvimento de Sistemas 💻 | Entusiasta de Tecnologia e Código</p>
+
+        <!-- Lista de Links -->
+        <div class="w-full flex flex-col gap-4">
+
+            <!-- Link 1: GitHub -->
+            <a href="https://github.com/" target="_blank" class="group relative flex items-center justify-between p-4 bg-slate-800/60 hover:bg-slate-800 border border-slate-700/50 hover:border-emerald-500/50 rounded-xl transition-all duration-300 shadow-lg hover:scale-[1.02]">
+                <div class="flex items-center gap-3">
+                    <span class="text-emerald-400 text-xl"><i class="fa-brands fa-github"></i></span>
+                    <span class="font-medium text-slate-200 group-hover:text-white">GitHub</span>
+                </div>
+                <i class="fa-solid fa-arrow-right text-slate-500 group-hover:text-emerald-400 transition-transform group-hover:translate-x-1"></i>
+            </a>
+
+            <!-- Link 2: LinkedIn -->
+            <a href="https://linkedin.com/" target="_blank" class="group relative flex items-center justify-between p-4 bg-slate-800/60 hover:bg-slate-800 border border-slate-700/50 hover:border-emerald-500/50 rounded-xl transition-all duration-300 shadow-lg hover:scale-[1.02]">
+                <div class="flex items-center gap-3">
+                    <span class="text-cyan-400 text-xl"><i class="fa-brands fa-linkedin"></i></span>
+                    <span class="font-medium text-slate-200 group-hover:text-white">LinkedIn</span>
+                </div>
+                <i class="fa-solid fa-arrow-right text-slate-500 group-hover:text-cyan-400 transition-transform group-hover:translate-x-1"></i>
+            </a>
+
+            <!-- Link 3: Discord -->
+            <a href="https://discord.com/" target="_blank" class="group relative flex items-center justify-between p-4 bg-slate-800/60 hover:bg-slate-800 border border-slate-700/50 hover:border-emerald-500/50 rounded-xl transition-all duration-300 shadow-lg hover:scale-[1.02]">
+                <div class="flex items-center gap-3">
+                    <span class="text-indigo-400 text-xl"><i class="fa-brands fa-discord"></i></span>
+                    <span class="font-medium text-slate-200 group-hover:text-white">Comunidade / Discord</span>
+                </div>
+                <i class="fa-solid fa-arrow-right text-slate-500 group-hover:text-indigo-400 transition-transform group-hover:translate-x-1"></i>
+            </a>
+
+            <!-- Link 4: Portfólio / Site Pessoal -->
+            <a href="#" target="_blank" class="group relative flex items-center justify-between p-4 bg-slate-800/60 hover:bg-slate-800 border border-slate-700/50 hover:border-emerald-500/50 rounded-xl transition-all duration-300 shadow-lg hover:scale-[1.02]">
+                <div class="flex items-center gap-3">
+                    <span class="text-amber-400 text-xl"><i class="fa-solid fa-globe"></i></span>
+                    <span class="font-medium text-slate-200 group-hover:text-white">Portfólio Pessoal</span>
+                </div>
+                <i class="fa-solid fa-arrow-right text-slate-500 group-hover:text-amber-400 transition-transform group-hover:translate-x-1"></i>
+            </a>
+
+        </div>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="py-6 text-center text-xs text-slate-500 border-t border-slate-800/80">
+        <p>Feito com <span class="text-red-500">♥</span> usando Tailwind CSS & GitHub Pages</p>
+    </footer>
+
+</body>
+</html>
